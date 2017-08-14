@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp">
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <TextView
+                android:id="@+id/others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="Other uses"
+                android:textAllCaps="true"
+                android:textColor="@color/section"
+                android:textStyle="bold" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button style="@style/bitButton" />
+
+            <Button
+                style="@style/bitButton"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

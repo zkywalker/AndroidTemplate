@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.arulnadhan.fabtoolbar.widget.FABToolbarLayout
+        android:id="@+id/fabtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bottomMargin="30dp"
+        app:fadeInFraction="0.2"
+        app:hideDuration="200"
+        app:rightMargin="30dp"
+        app:showDuration="600">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ToolBarStyle" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar" />
+
+        <me.arulnadhan.fabtoolbar.widget.FABContainer
+            android:id="@+id/fabtoolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabtoolbar_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/abc_ic_menu_share_mtrl_alpha" />
+
+        </me.arulnadhan.fabtoolbar.widget.FABContainer>
+
+        <LinearLayout
+            android:id="@+id/fabtoolbar_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:layout_width="0dp"
+                android:layout_margin="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:iiv_color="@color/white"
+                app:iiv_icon="gmd-android"
+                android:onClick="Alert" />
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:layout_width="0dp"
+                android:layout_margin="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:iiv_color="@color/white"
+                app:iiv_icon="gmd-cast"
+                android:onClick="Alert" />
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:layout_width="0dp"
+                android:layout_margin="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:iiv_color="@color/white"
+                app:iiv_icon="gmd_bookmark"
+                android:onClick="Alert" />
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:layout_width="0dp"
+                android:layout_margin="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:iiv_color="@color/white"
+                app:iiv_icon="gmd_build"
+                android:onClick="Alert" />
+
+        </LinearLayout>
+    </me.arulnadhan.fabtoolbar.widget.FABToolbarLayout>
+</RelativeLayout>

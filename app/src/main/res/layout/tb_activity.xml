@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewMain"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Collapse">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/header_img" />
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Collapsing Toolbar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/keep_title_size"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewMain"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:onClick="QuickReturn">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/header_img" />
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Quick Return \n(Coordinator Layout) "
+                android:textColor="@color/white"
+                android:textSize="@dimen/keep_title_size"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

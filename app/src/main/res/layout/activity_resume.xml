@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="true"
+    android:clipToPadding="true">
+
+    <me.arulnadhan.resume.SCViewPager
+        android:id="@+id/viewpager_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <me.arulnadhan.resume.DotsView
+        android:id="@+id/dotsview_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" />
+
+    <ImageView
+        android:id="@+id/imageview_main_activity_name_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="50dp"
+        android:rotation="-10"
+        android:src="@drawable/name_tag" />
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:id="@+id/imageview_main_activity_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="18dp"
+        android:text="I ❤ developing Apps \nfor both"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="34sp"
+        app:fontFamily="roboto_slab" />
+
+    <ImageView
+        android:id="@+id/imageview_main_activity_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/mobile" />
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:id="@+id/imageview_main_activity_abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="148dp"
+        android:text="I am an Mobile \nDeveloper"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="32sp"
+        app:fontFamily="roboto_slab" />
+
+
+    <ImageView
+        android:id="@+id/imageview_main_activity_diploma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/diploma" />
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:id="@+id/imageview_main_activity_grad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageview_main_activity_diploma"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="14dp"
+        android:layout_marginTop="42dp"
+        android:text="who graduated in Information technology"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="28sp"
+        app:fontFamily="roboto_slab" />
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:id="@+id/imageview_main_proj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="32dp"
+        android:text="Some of my Projects"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="32sp"
+        app:fontFamily="roboto_slab" />
+
+    <ImageView
+        android:id="@+id/imageview_main_remote"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imageview_main_proj"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/remoteit" />
+
+    <ImageView
+        android:id="@+id/imageview_main_help"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/imageview_main_remote"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/hc" />
+
+    <ImageView
+        android:id="@+id/imageview_main_au"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="50dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:id="@+id/imageview_main_check_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:layout_marginTop="32dp"
+        android:text="Check out my \nPortfolio"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="32sp"
+        app:fontFamily="roboto_slab"
+        android:textAlignment="center"
+        android:layout_above="@+id/textview_main_portfolio"/>
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:id="@+id/textview_main_portfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:autoLink="web"
+        android:text="http://arulnadhan.me/"
+        android:textColor="@color/theme_700"
+        android:textSize="24sp"
+        app:fontFamily="roboto_slab" />
+
+</RelativeLayout>

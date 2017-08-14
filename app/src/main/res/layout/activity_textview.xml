@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="60dp">
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Display1"
+            android:text="@string/typography1" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Headline1"
+            android:text="@string/material_design" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Title1"
+            android:text="@string/all_set_by_google_instructions_of_material_design" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Body1"
+            android:text="@string/lorem_ipsum_long" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Caption1"
+            android:text="@string/lorem_ipsum_short" />
+
+        <View style="@style/DividerStyle" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Display2"
+            android:text="@string/typography2" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Headline2"
+            android:text="@string/material_design" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Title2"
+            android:text="@string/all_set_by_google_instructions_of_material_design" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Body2"
+            android:text="@string/lorem_ipsum_long" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Caption2"
+            android:text="@string/lorem_ipsum_short" />
+
+        <View style="@style/DividerStyle" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Display3"
+            android:text="@string/typography3" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Headline3"
+            android:text="@string/material_design" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Title3"
+            android:text="@string/all_set_by_google_instructions_of_material_design" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Body3"
+            android:text="@string/lorem_ipsum_long" />
+
+        <me.arulnadhan.robototextview.widget.RobotoTextView
+            style="@style/TextViewAppearance.Caption3"
+            android:text="@string/lorem_ipsum_short" />
+
+    </LinearLayout>
+</ScrollView>

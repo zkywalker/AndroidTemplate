@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="appearance_examples">
+        <item>Alpha</item>
+        <item>Left</item>
+        <item>Right</item>
+        <item>Bottom</item>
+        <item>Bottom right</item>
+        <item>Scale</item>
+    </string-array>
+
+    <string-array name="swipedismiss">
+        <item>Swipe-To-Dismiss</item>
+        <item>Contextual Undo</item>
+        <item>CU - Timed Delete</item>
+    </string-array>
+
+    <!--Search-->
+    <string-array name="query_suggestions">
+        <item>AruLNadhaN</item>
+        <item>Steven Speilberg</item>
+        <item>Jen Barber</item>
+        <item>Richmond Felicity</item>
+        <item>Donald</item>
+        <item>Brian</item>
+        <item>Ford</item>
+        <item>James</item>
+    </string-array>
+
+    <!-- Toolbar Cards Content-->
+
+    <string-array name="card_titles">
+
+        <item>Android</item>
+        <item>Java</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>JavaScript</item>
+        <item>C#</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>iOS</item>
+        <item>Objective C</item>
+        <item>Swift</item>
+        <item>Kotlin</item>
+        <item>Angular JS</item>
+        <item>Ajax</item>
+        <item>Bootstrap</item>
+        <item>MongoDB</item>
+        <item>Unity</item>
+        <item>ionic</item>
+        <item>Selenium</item>
+        <item>.NET</item>
+
+    </string-array>
+
+    <string-array name="card_contents">
+        <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit.</item>
+        <item>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus,
+            nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non
+            metus auctor fringilla.</item>
+        <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit.</item>
+        <item>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus,
+            nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non
+            metus auctor fringilla.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+         <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit.</item>
+        <item>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus,
+            nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non
+            metus auctor fringilla.</item>
+        <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit.</item>
+        <item>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus,
+            nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non
+            metus auctor fringilla.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/message"
+            android:textColor="?colorPrimaryDark"
+            android:textSize="24sp"
+            tools:ignore="UnusedAttribute" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabMenu"
+            style="@style/AppTheme.FABMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/fab_margin"
+            android:onClick="Share"
+            android:src="@drawable/add"
+            tools:ignore="RtlHardcoded" />
+
+    </FrameLayout>
+
+</LinearLayout>

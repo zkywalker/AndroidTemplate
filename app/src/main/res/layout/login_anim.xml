@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maps">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:src="@drawable/vlogo" />
+
+    <LinearLayout
+        android:id="@+id/LoginBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="56dp">
+
+        <!-- Email Label -->
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edittext"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
+
+        <!-- Password Label -->
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edittext"
+            android:fontFamily="sans-serif"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="No account yet? Create one"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#DE4C4A"
+        android:onClick="submit"
+        android:text="submit"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+

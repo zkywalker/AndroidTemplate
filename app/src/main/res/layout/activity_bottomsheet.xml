@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.arulnadhan.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:id="@+id/onel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/menu_button"
+                style="@style/CardViewMain"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="@string/menu_resource" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/picker_button"
+                style="@style/CardViewMain"
+                app:cardBackgroundColor="@color/four">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="@string/intent_picker" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/image_picker_button"
+                style="@style/CardViewMain"
+                app:cardBackgroundColor="@color/two">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="@string/image_picker" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_picker_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</me.arulnadhan.bottomsheet.BottomSheetLayout>
+

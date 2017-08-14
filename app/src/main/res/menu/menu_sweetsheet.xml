@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_recyclerView"
+        android:orderInCategory="100"
+        android:title="RecyclerView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_viewpager"
+        android:orderInCategory="100"
+        android:title="ViewPager"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_custom"
+        android:orderInCategory="100"
+        android:title="Custom"
+        app:showAsAction="never" />
+
+</menu>

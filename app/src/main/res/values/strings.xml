@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Ultimate</string>
+
+  <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- app intro-->
+
+    <string name="customized_intro">Start Custom Intro</string>
+    <string name="default_intro">Start Default Intro</string>
+    <string name="fade_animation">Fade </string>
+    <string name="custom_animation">Custom Transformer</string>
+    <string name="progress_indicator">Set progress indicator</string>
+    <string name="custom_indicator">Set custom indicator</string>
+    <string name="second_layout_intro">Start Intro with Layout 2</string>
+    <string name="title_activity_default_intro">DefaultIntro</string>
+    <string name="title_activity_custom_intro">CustomIntro</string>
+    <string name="title_activity_second_intro">SecondLayoutIntro</string>
+    <string name="skip">Y U DO DIS TO ME?</string>
+    <string name="header_animations">Animations</string>
+    <string name="header_indicators">Indicators</string>
+    <string name="zoom_animation"> ZOOM </string>
+    <string name="flow_animation"> FLOW </string>
+    <string name="depth_animation"> DEPTH </string>
+    <string name="slideover_animation"> SLIDEOVER </string>
+    <string name="title_activity_pull_to_refresh">PullToRefresh</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Bottom sheet-->
+
+    <string name="share">Share</string>
+    <string name="list_button">List menu</string>
+    <string name="grid_button">Grid menu</string>
+    <string name="intent_picker">Intent Picker</string>
+    <string name="menu_resource">Inflating a Menu</string>
+    <string name="document">Document</string>
+    <string name="spreadsheet">Spreadsheet</string>
+    <string name="folder">Folder</string>
+    <string name="upload_photos">Upload photos or videos</string>
+    <string name="use_camera">Use camera</string>
+    <string name="share_some_text">Share some text!</string>
+    <string name="image_picker">Show Image picker</string>
+    <string name="reopen">Reopen as other type</string>
+
+    <!-- List View-->
+    <string name="googlecards">Material cards</string>
+    <string name="gridview">GridView</string>
+    <string name="appearance">Appearance Animation</string>
+    <string name="stickylistheaders">StickyListHeaders</string>
+    <string name="limit">Limit to 2</string>
+    <string name="itemmanipulation">Item Manipulation</string>
+    <string name="gridviewexample">GridView</string>
+    <string name="draganddrop">Drag and Drop</string>
+    <string name="dynamiclistview">DynamicListView</string>
+    <string name="animateaddition">Animate addition</string>
+    <string name="expandablelistitemadapter">Expand list items</string>
+    <string name="itemdeleted">Item deleted</string>
+    <string name="taptoundo">Tap to undo</string>
+    <string name="explainexpand">Tap on cards to expand or collapse them</string>
+    <string name="expandorcollapsecard">This is card number %d</string>
+    <string name="row_number">This is row number %d</string>
+    <string name="header">Header %d</string>
+    <string name="card_number">This is card %d</string>
+    <string name="thanks">Thank you!</string>
+    <string name="exception">Oops! Something went wrong!</string>
+    <string name="moved">\'%1$s\' moved to position %2$s</string>
+    <string name="removed_positions">Removed positions: %s</string>
+    <string name="tap_to_insert">Tap on an item to insert a new item</string>
+    <string name="newly_added_item">This is newly added item %d</string>
+
+
+    <string name="activity_dynamiclistview_header">Touch the grip or long press an item to drag.\nSwipe to dismiss.\nTap an item to insert a new item.</string>
+
+    <!--FAB Reveal-->
+    <string name="album_title">Kodaline</string>
+    <string name="artist_name">In a Perfect World</string>
+    <string name="song_title">1. One Day</string>
+
+    <!-- Date picker-->
+
+    <string name="title_activity_main">Range Picker</string>
+    <string name="selected_time">The time you picked will be shown here.</string>
+    <string name="selected_date">The date you picked will be shown here.</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+
+    <string name="message">Press the FAB to experience the FAB Menu! :)</string>
+
+    <!--   ElasticDownload-->
+    <string name="action_run_success_animation">Run success animation</string>
+    <string name="action_run_fail_animation">Run fail animation</string>
+
+    <!--  RecyclerView  -->
+
+    <string name="activity_title_launcher">Advanced RecyclerView Examples</string>
+
+    <string name="activity_title_about">Advanced RecyclerView About</string>
+
+    <string name="activity_title_demo_d">Draggable</string>
+
+    <string name="activity_title_demo_d_grid">Draggable (Grid Layout)</string>
+
+    <string name="activity_title_demo_d_on_longpress">Drag on Long Press</string>
+
+    <string name="activity_title_demo_s">Swipeable</string>
+
+    <string name="activity_title_demo_s_on_longpress">Swipe on Long Press</string>
+
+    <string name="activity_title_demo_us">Button under swipeable item</string>
+
+    <string name="activity_title_demo_e">Expandable</string>
+
+    <string name="activity_title_demo_ds">Draggable + Swipeable</string>
+
+    <string name="activity_title_demo_eds">Expandable + Draggable + Swipeable</string>
+
+    <string name="activity_title_demo_d_with_section">Draggable with Section</string>
+
+    <string name="activity_title_demo_ed_with_section">Expandable + Draggable with Section</string>
+
+    <string name="activity_title_demo_e_add_remove">Expandable (Add/Remove items)</string>
+
+    <string name="activity_title_demo_e_already_expanded">Expandable (Groups already expanded)</string>
+
+    <string name="activity_title_demo_s_vertical">Swipeable (Vertical)</string>
+
+    <string name="activity_title_demo_s_viewpager">Swipeable with ViewPager</string>
+
+    <string name="activity_title_demo_s_legacy">Swipeable (Legacy)</string>
+
+    <string name="snack_bar_text_item_removed">1 item removed</string>
+
+    <string name="snack_bar_text_group_item_removed">1 group item removed</string>
+
+    <string name="snack_bar_text_child_item_removed">1 child item removed</string>
+
+    <string name="snack_bar_text_button_clicked">Button clicked! (position = %1$d)</string>
+
+    <string name="snack_bar_action_undo">UNDO</string>
+
+    <string name="dialog_message_item_pinned">Item pinned! (position = %1$d)</string>
+
+    <string name="dialog_message_group_item_pinned">Group item pinned! (group = %1$d)</string>
+
+    <string name="dialog_message_child_item_pinned">Child item pinned! (group = %1$d, child = %2$d)</string>
+
+
+    <!-- Toolbar -->
+    <string name="collapsing_toolbar_fragment_title">Collapsing toolbar</string>
+    <string name="fab_fragment_title">FAB</string>
+
+    <string name="title_input_hint">Title</string>
+    <string name="content_input_hint">Content</string>
+
+    <string name="dialog_title">Add item</string>
+
+    <string name="dummy_string">
+       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.\n\n
+Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.\n\n
+    </string>
+
+    <string name="edittext_error">Can\'t be empty</string>
+    <string name="titletext_error">Title can\'t be empty</string>
+    <string name="contenttext_error">Content can\'t be empty</string>
+    <string name="title_content_error">Title &#038; Content can\'t be empty</string>
+    <string name="text_success">Item added</string>
+    <string name="text_undo">UNDO</string>
+    <string name="title_activity_dialogs">DialogsActivity</string>
+    <string name="navigation_drawer_open">Android Ultimate</string>
+
+    <!-- Themer -->
+
+    <string name="prefs_theme_key">theme</string>
+
+    <!-- TextView-->
+
+    <string name="typography1">Typography I</string>
+    <string name="typography2">Typography II</string>
+    <string name="typography3">Typography III</string>
+    <string name="material_design">Android Ultimate</string>
+    <string name="all_set_by_google_instructions_of_material_design">The Ultimate library for Android &amp; Material Design</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="lorem_ipsum_short">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+
+</resources>

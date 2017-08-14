@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.4" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Achievement" />
+            <option value="$PROJECT_DIR$/AppIntro" />
+            <option value="$PROJECT_DIR$/Bubbles" />
+            <option value="$PROJECT_DIR$/ElasticDownload" />
+            <option value="$PROJECT_DIR$/FABToolbar" />
+            <option value="$PROJECT_DIR$/FabDownload" />
+            <option value="$PROJECT_DIR$/FabLoading" />
+            <option value="$PROJECT_DIR$/FabProgress" />
+            <option value="$PROJECT_DIR$/FabReveal" />
+            <option value="$PROJECT_DIR$/FlyRefresh" />
+            <option value="$PROJECT_DIR$/MaterialPicker" />
+            <option value="$PROJECT_DIR$/RecyclerView" />
+            <option value="$PROJECT_DIR$/Resume" />
+            <option value="$PROJECT_DIR$/ScrollBar" />
+            <option value="$PROJECT_DIR$/SearchView" />
+            <option value="$PROJECT_DIR$/SweetSheet" />
+            <option value="$PROJECT_DIR$/SwipeableLayout" />
+            <option value="$PROJECT_DIR$/TextSurface" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bottomsheet" />
+            <option value="$PROJECT_DIR$/robototextview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:elevation" tools:ignore="NewApi">4dp</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Search View -->
+
+    <style name="MaterialSearchViewStyle">
+        <!-- Background for the search bar-->
+        <item name="searchBackground">@color/fab_orange_dark</item>
+
+        <!-- Change voice icon-->
+        <item name="searchVoiceIcon">@drawable/ic_action_voice_search_inverted</item>
+
+        <!-- Change clear text icon-->
+        <item name="searchCloseIcon">@drawable/ic_action_navigation_close_inverted</item>
+
+        <!-- Change up icon-->
+        <item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back_inverted</item>
+
+        <!-- Change icon for the suggestions-->
+        <item name="searchSuggestionIcon">@drawable/ic_suggestion</item>
+
+        <!-- Change background for the suggestions list view-->
+        <item name="searchSuggestionBackground">@android:color/white</item>
+
+        <!-- Change text color for edit text. This will also be the color of the cursor-->
+        <item name="android:textColor">@color/primary_text</item>
+
+        <!-- Change hint text color for edit text-->
+        <item name="android:textColorHint">@color/text_gray</item>
+
+        <!-- Hint for edit text-->
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+
+    <!-- Far Reveal-->
+
+    <style name="CoverImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="FABStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AlbumTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ArtistNameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MusicButtonStyle">
+        <item name="android:layout_width">@dimen/music_button_size</item>
+        <item name="android:layout_height">@dimen/music_button_size</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="MusicBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:max">100</item>
+    </style>
+
+    <style name="SongTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="MusicButtonStyle.CenterButtonStyle">
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+    </style>
+
+    <style name="AppTheme.FABMenu">
+        <item name="fab_shadow">true</item>
+        <item name="fab_colorNormal">?colorPrimary</item>
+        <item name="fab_colorPressed">?colorAccent</item>
+        <item name="fab_colorRipple">?colorAccent</item>
+    </style>
+
+    <!-- Achievement-->
+    <style name="bitButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/action_button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#fff</item>
+
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!--RecyclerView -->
+    <style name="myRecyclerViewStyle">
+        <!-- NOTE: clipChildren should be true on API level 10 -->
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="exampleLauncherButtonStyle">
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="commonListItemStyle"></style>
+
+    <style name="sectionHeaderItemStyle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <!--Login-->
+
+    <style name="VideoLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/red</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Login" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AnimLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/maps</item>
+    </style>
+
+    <style name="SocialLogin" parent="Login">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorPrimaryDark">#DA6C77</item>
+    </style>
+
+    <style name="MaterialLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/pink</item>
+        <item name="android:textColorHint">@color/pink</item>
+        <item name="colorControlNormal">@color/pink</item>
+        <item name="colorControlActivated">@color/pink</item>
+        <item name="colorControlHighlight">@color/pink</item>
+    </style>
+
+    <!-- UI Elements-->
+    <style name="uione">
+        <item name="colorAccent">@color/one</item>
+        <item name="colorControlNormal">@color/one</item>
+        <item name="colorControlActivated">@color/one</item>
+        <item name="colorControlHighlight">@color/one</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="uitwo">
+        <item name="colorAccent">@color/four</item>
+        <item name="colorControlNormal">@color/four</item>
+        <item name="colorControlActivated">@color/four</item>
+        <item name="colorControlHighlight">@color/four</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="uithree">
+        <item name="colorAccent">@color/five</item>
+        <item name="colorControlNormal">@color/five</item>
+        <item name="colorControlActivated">@color/five</item>
+        <item name="colorControlHighlight">@color/five</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="uifour">
+        <item name="colorAccent">@color/three</item>
+        <item name="colorControlNormal">@color/three</item>
+        <item name="colorControlActivated">@color/three</item>
+        <item name="colorControlHighlight">@color/three</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:background">?colorPrimary</item>
+    </style>
+
+</resources>

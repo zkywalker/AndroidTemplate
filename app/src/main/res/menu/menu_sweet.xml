@@ -1,0 +1,188 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_recyclerView"
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Menu"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C++"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="iOS "
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="PHP"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Perl"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Ajax"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Bash"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="UI"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="SQL"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C++"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="iOS "
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="PHP"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Perl"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Ajax"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Bash"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="UI"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="SQL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_recyclerView"
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Menu"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C++"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="iOS "
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="PHP"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Perl"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Ajax"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Bash"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="UI"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="SQL"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="C++"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="iOS "
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="PHP"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="Perl"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="UI"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_account_child"
+        android:orderInCategory="100"
+        android:title="SQL"
+        app:showAsAction="always" />
+
+</menu>

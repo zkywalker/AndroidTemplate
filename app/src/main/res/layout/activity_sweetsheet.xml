@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewMain"
+            android:onClick="action_recyclerView"
+            app:cardBackgroundColor="@color/five">
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                style="@style/CardViewContentTV"
+                android:text="RecyclerView" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewMain"
+            android:onClick="action_viewpager"
+            app:cardBackgroundColor="@color/four">
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                style="@style/CardViewContentTV"
+                android:text="Viewpager" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewMain"
+            android:onClick="action_custom"
+            app:cardBackgroundColor="@color/two">
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                style="@style/CardViewContentTV"
+                android:text="Custom Sweetsheet" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

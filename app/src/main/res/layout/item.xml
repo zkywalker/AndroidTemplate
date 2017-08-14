@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--<TextView--><!--android:layout_width="wrap_content"--><!--android:layout_height="40dp"--><!--android:id="@+id/list_item"--><!--android:textSize=""--><!--xmlns:android="http://schemas.android.com/apk/res/android" />-->
+
+<me.arulnadhan.robototextview.widget.RobotoTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="24sp"
+    android:layout_marginLeft="10dp"
+    android:padding="2dp"
+    android:id="@+id/list_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:fontFamily="roboto"
+    app:textWeight="light" />

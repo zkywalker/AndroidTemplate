@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.arulnadhan.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ToolBarStyle"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <LinearLayout
+            android:id="@+id/onel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/list_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@color/two">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    android:id="@+id/loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_gravity="center"
+                    android:text="@string/list_button"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/keep_title_size"
+                    app:fontFamily="roboto_slab"
+                    app:textWeight="normal" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/grid_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@color/six">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/grid_button"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/keep_title_size"
+                    app:fontFamily="roboto_slab"
+                    app:textWeight="normal" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</me.arulnadhan.bottomsheet.BottomSheetLayout>

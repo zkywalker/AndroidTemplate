@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ToolBarStyle" />
+
+    <me.arulnadhan.fabloading.LoadingView
+        android:id="@+id/loading_view_long"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:mfl_duration="400"
+        app:mfl_onclickLoading="true" />
+
+    <me.arulnadhan.fabloading.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:mfl_duration="400"
+        app:mfl_onclickLoading="true" />
+
+    <me.arulnadhan.fabloading.LoadingView
+        android:id="@+id/loading_view_repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:mfl_duration="400"
+        app:mfl_onclickLoading="true"
+        app:mfl_repeat="1" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:id="@+id/onel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewMain"
+            android:onClick="start"
+            app:cardBackgroundColor="#FF4218">
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                style="@style/CardViewContentTV"
+                android:layout_margin="8dp"
+                android:text="Start Loader"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

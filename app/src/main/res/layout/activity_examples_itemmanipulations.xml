@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:ignore="UnusedAttribute">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="4dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="onDynamicListViewClicked">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:scaleType="center"
+                android:src="@drawable/img_manipulation_swipetodismiss" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green_transparent"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/dynamiclistview"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="4dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="onExpandListItemAdapterClicked">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:scaleType="center"
+                android:src="@drawable/img_manipulation_expand" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red_transparent"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/expandablelistitemadapter"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

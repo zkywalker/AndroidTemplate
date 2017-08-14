@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Switch Green "
+        android:theme="@style/uione"
+        android:paddingBottom="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Switch Blue"
+        android:theme="@style/uitwo"
+        android:padding="14dp"
+        android:layout_margin="14dp" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Switch Deep Orange"
+        android:theme="@style/uithree"
+        android:padding="14dp"
+        android:layout_margin="14dp" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Switch Pink"
+        android:theme="@style/uifour"
+        android:padding="14dp"
+        android:layout_margin="14dp" />
+
+</LinearLayout>

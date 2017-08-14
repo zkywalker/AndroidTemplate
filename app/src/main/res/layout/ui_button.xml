@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/four"
+        android:padding="24dp"
+        android:layout_margin="24dp"
+        android:textColor="@color/white"
+        android:text="Material Button" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_margin="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/action_button"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:text="Button" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn1v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Normal Button" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn2v"
+        android:layout_margin="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:text="Button" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_margin="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done" />
+
+</LinearLayout>

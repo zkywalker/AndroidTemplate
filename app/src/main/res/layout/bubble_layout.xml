@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.arulnadhan.bubbles.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/bubble_counter_bkg"
+        android:text="1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp" />
+
+
+</me.arulnadhan.bubbles.BubbleLayout>

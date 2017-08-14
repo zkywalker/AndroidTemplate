@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+
+    <!-- FOR THEME -->
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="accent">#FF4081</color>
+
+    <!-- List-->
+
+    <color name="bg_actionbar">#3f51b5</color>
+
+    <color name="pink_transparent">#aa700d39</color>
+    <color name="green_transparent">#aa375a1f</color>
+    <color name="blue_transparent">#aa293576</color>
+    <color name="red_transparent">#aa7f3907</color>
+    <color name="purple_transparent">#aa432677</color>
+
+    <color name="holo_red_light_transparent">#aaff4444</color>
+
+    <!-- Grey for TextView-->
+
+    <color name="grey_500">#9d9d9d</color>
+    <color name="grey_400">#bdbcbc</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_100">#f4f5f5</color>
+
+    <!-- FAB Progress-->
+
+    <color name="fab_primary">#5869b2</color>
+    <color name="fab_primary_pressed">#3951b7</color>
+    <color name="fab_orange_dark">#f97910</color>
+    <color name="fab_orange_bright">#ffb54c</color>
+
+    <!-- FAB Reveal-->
+    <color name="reveal">#4B667B</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="fab">#70C4B4</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="white">#ffffff</color>
+
+    <!-- Bubbles-->
+    <color name="brand_red">#d51826</color>
+
+    <!-- Login  -->
+    <color name="maps">#EBAF23</color>
+    <color name="red">#ff5252</color>
+
+    <!-- Achievement  -->
+    <color name="section">#9FA8DA</color>
+    <color name="status_bar">#303F9F</color>
+
+    <!-- ShareView-->
+    <color name="pink">#FF4081</color>
+
+    <!-- RecyclerView-->
+    <color name="bg_item_normal_state">#fff0f0f0</color>
+    <color name="bg_item_dragging_state">#ffffdddd</color>
+    <color name="bg_item_dragging_active_state">#ffff9999</color>
+    <color name="bg_item_swiping_state">#ffddddff</color>
+    <color name="bg_item_swiping_active_state">#ff9999ff</color>
+
+    <color name="bg_group_item_normal_state">#ffddffdd</color>
+    <color name="bg_group_item_normal_pressed_state">#ff99cc99</color>
+    <color name="bg_group_item_expanded_state">#ff88dd88</color>
+    <color name="bg_group_item_expanded_pressed_state">#ff99cc99</color>
+    <color name="bg_group_item_dragging_state">#ffeeccff</color>
+    <color name="bg_group_item_dragging_active_state">#ffee99ff</color>
+    <color name="bg_group_item_swiping_state">#ffddccff</color>
+    <color name="bg_group_item_swiping_active_state">#ffbb99ff</color>
+
+    <color name="bg_swipe_item_neutral">#ffffffff</color>
+    <color name="bg_swipe_item_pinned">#fff9930d</color>
+    <color name="bg_swipe_item_dismiss">#ff2f8b2a</color>
+    <color name="bg_swipe_group_item_pinned">#fff45f30</color>
+    <color name="bg_swipe_group_item_dismiss">#ff295db3</color>
+
+    <color name="snackbar_action_color_done">#ffccccff</color>
+
+    <!-- CARD COLORS -->
+
+    <color name="one">#689F38</color>
+
+    <color name="two">#FFA000</color>
+
+    <color name="three">#EC407A</color>
+
+    <color name="four">#03A9F4</color>
+
+    <color name="five">#FF5722</color>
+
+    <color name="six">#00ACC1</color>
+
+    <!-- Search Items-->
+
+    <color name="separator_line">#ECECEC</color>
+    <color name="title">#222222</color>
+    <color name="subtitle">#999999</color>
+
+</resources>

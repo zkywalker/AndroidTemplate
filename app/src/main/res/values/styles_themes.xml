@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Red" parent="AppTheme">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#FF5252</item>
+        <item name="tabIndicatorColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="AppTheme">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#FFC107</item>
+    </style>
+
+    <style name="AppTheme.Cyan" parent="AppTheme">
+        <item name="colorPrimary">#00BCD4</item>
+        <item name="colorPrimaryDark">#0097A7</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="AppTheme.Purple" parent="AppTheme">
+        <item name="colorPrimary">#512DA8</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#F06292</item>
+    </style>
+
+    <style name="AppTheme.Orange" parent="AppTheme">
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorAccent">#FF9800</item>
+    </style>
+
+    <style name="AppTheme.Teal" parent="AppTheme">
+        <item name="colorPrimary">#00796B</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#FF9800</item>
+    </style>
+
+    <style name="AppTheme.Pink" parent="AppTheme">
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#C2185B</item>
+        <item name="colorAccent">#F06292</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TextViewAppearance" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">roboto</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">26dp</item>
+        <item name="android:paddingRight">26dp</item>
+    </style>
+
+    <!-- Typography style 1 -->
+
+    <style name="TextViewAppearance.Display1" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_regular</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextViewAppearance.Headline1" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Title1" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name="TextViewAppearance.Body1" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption1" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <!-- Typography style 2 -->
+
+    <style name="TextViewAppearance.Display2" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_slab_regular</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextViewAppearance.Headline2" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_slab_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Title2" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_slab_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name="TextViewAppearance.Body2" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_slab_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption2" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_slab_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <!-- Typography style 3 -->
+
+    <style name="TextViewAppearance.Display3" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_condensed_regular</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextViewAppearance.Headline3" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_condensed_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Title3" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_condensed_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name="TextViewAppearance.Body3" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_condensed_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption3" parent="@style/TextViewAppearance">
+        <item name="typeface">roboto_condensed_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+</resources>

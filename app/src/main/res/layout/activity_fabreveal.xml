@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/reveal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/album_cover_image"
+        style="@style/CoverImageStyle"
+        android:src="@drawable/kodaline" />
+
+    <me.arulnadhan.fabreveal.FABRevealLayout
+        android:id="@+id/fab_reveal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            style="@style/FABStyle"
+            app:ico_padding="1dp"
+            app:ico_icon="gmd-play-arrow"
+            app:ico_color="@color/white"
+            app:backgroundTint="@color/fab" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    android:id="@+id/album_title_text"
+                    style="@style/AlbumTitleStyle"
+                    android:paddingLeft="50dp"
+                    android:text="@string/album_title"
+                    android:textSize="54sp"
+                    app:fontFamily="roboto"
+                    app:textWeight="normal" />
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    android:id="@+id/artist_name_text"
+                    style="@style/ArtistNameStyle"
+                    android:paddingLeft="50dp"
+                    android:text="@string/artist_name"
+                    android:textSize="24sp"
+                    app:fontFamily="roboto"
+                    app:textWeight="normal" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/FABStyle"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <com.mikepenz.iconics.view.IconicsImageView
+                        android:id="@+id/previous"
+                        style="@style/MusicButtonStyle"
+                        android:layout_margin="32dp"
+                        app:iiv_color="@color/reveal"
+                        app:iiv_icon="gmd-fast-rewind"
+                        app:iiv_size="24dp" />
+
+                    <com.mikepenz.iconics.view.IconicsImageView
+                        android:id="@+id/stop"
+                        android:layout_margin="32dp"
+                        style="@style/MusicButtonStyle.CenterButtonStyle"
+                        app:iiv_color="@color/reveal"
+                        app:iiv_icon="gmd-stop"
+                        app:iiv_size="24dp" />
+
+                    <com.mikepenz.iconics.view.IconicsImageView
+                        android:id="@+id/next"
+                        android:layout_margin="32dp"
+                        style="@style/MusicButtonStyle"
+                        app:iiv_color="@color/reveal"
+                        app:iiv_icon="gmd-fast-forward"
+                        app:iiv_size="24dp" />
+                </LinearLayout>
+
+                <SeekBar
+                    android:id="@+id/song_progress_bar"
+                    style="@style/MusicBarStyle" />
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    android:id="@+id/song_title_text"
+                    android:text="@string/song_title"
+                    style="@style/SongTitleStyle"
+                    android:textSize="24sp"
+                    app:fontFamily="roboto"
+                    app:textWeight="normal" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </me.arulnadhan.fabreveal.FABRevealLayout>
+</LinearLayout>

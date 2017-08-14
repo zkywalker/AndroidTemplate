@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/header_img"
+    android:alpha="0.9"
+    android:orientation="vertical">
+
+    <me.arulnadhan.robototextview.widget.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="center_vertical"
+        android:text="Android Ultimate"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:fontFamily="roboto_slab"
+        app:textWeight="normal" />
+
+</FrameLayout>

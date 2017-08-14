@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_android"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_theme"
+            android:title="Theme" />
+    </group>
+
+    <item
+        android:id="@+id/mh"
+        android:title="Material Highlights">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/tool_bar"
+                    android:icon="@drawable/ic_toolbar"
+                    android:title="ToolBar" />
+                <item
+                    android:id="@+id/nav_tabs"
+                    android:icon="@drawable/ic_tabs"
+                    android:title="Material Tabs" />
+                <item
+                    android:id="@+id/nav_fab"
+                    android:icon="@drawable/ic_fab"
+                    android:title="FAB" />
+                <item
+                    android:id="@+id/dialogs"
+                    android:icon="@drawable/ic_dialogs"
+                    android:title="Dialogs" />
+                <item
+                    android:id="@+id/nav_rv"
+                    android:icon="@drawable/ic_rv"
+                    android:title="Recycler View" />
+                <item
+                    android:id="@+id/nav_bottomsheet"
+                    android:icon="@drawable/ic_sheet"
+                    android:title="Bottomsheet" />
+                <item
+                    android:id="@+id/nav_scrollbar"
+                    android:icon="@drawable/ic_scroll"
+                    android:title="Material Scrollbar" />
+                <item
+                    android:id="@+id/nav_searchview"
+                    android:icon="@drawable/ic_search"
+                    android:title="SearchView" />
+                <item
+                    android:id="@+id/nav_mpicker"
+                    android:icon="@drawable/ic_picker"
+                    android:title="Material Picker" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/AP"
+        android:title="Android Patterns">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_intro"
+                    android:icon="@drawable/ic_intro"
+                    android:title="App Intro" />
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_login"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_swipeablelayout"
+                    android:icon="@drawable/ic_swipe"
+                    android:title="Swipeable Layout" />
+                <item
+                    android:id="@+id/nav_bubbles"
+                    android:icon="@drawable/ic_bubbles"
+                    android:title="Bubbles" />
+                <item
+                    android:id="@+id/nav_achievement"
+                    android:icon="@drawable/ic_achievement"
+                    android:title="Achievement" />
+                <item
+                    android:id="@+id/nav_refresh"
+                    android:icon="@drawable/ic_pull"
+                    android:title="Pull To Refresh" />
+
+                <item
+                    android:id="@+id/nav_lv"
+                    android:icon="@drawable/ic_list"
+                    android:title="List View" />
+                <item
+                    android:id="@+id/nav_tv"
+                    android:icon="@drawable/ic_text"
+                    android:title="Text Views" />
+                <item
+                    android:id="@+id/nav_ui"
+                    android:icon="@drawable/ic_ui"
+                    android:title="UI Elements" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/misc"
+        android:title="Bonus">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_sweetsheet"
+                    android:icon="@drawable/ic_sheet"
+                    android:title="Sweet Sheet" />
+                <item
+                    android:id="@+id/nav_shareview"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share View" />
+                <item
+                    android:id="@+id/nav_textsurface"
+                    android:icon="@drawable/ic_text"
+                    android:title="Text Surface" />
+                <item
+                    android:id="@+id/nav_elasticdownload"
+                    android:icon="@drawable/ic_download"
+                    android:title="Elastic Download" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/abt"
+        android:title="About">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_resume"
+                    android:icon="@drawable/ic_resume"
+                    android:title="Resume" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

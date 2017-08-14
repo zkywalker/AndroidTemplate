@@ -1,0 +1,113 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/onel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="ToolbarH"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Toolbar" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="MTabs"
+                app:cardBackgroundColor="@color/four">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Material Tabs" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="FAB"
+                app:cardBackgroundColor="@color/two">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Floating Action Button" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="MDialogs"
+                app:cardBackgroundColor="@color/one">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Material Dialogs" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="RV"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="RecyclerView" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="BSheet"
+                app:cardBackgroundColor="@color/three">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Bottomsheet" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="MScrollbar"
+                app:cardBackgroundColor="@color/four">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Material Scrollbar" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="SearchV"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="SearchView" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="MPicker"
+                app:cardBackgroundColor="@color/six">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Material Picker" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

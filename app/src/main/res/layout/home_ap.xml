@@ -1,0 +1,115 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/onel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="AppIntro"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="App Intro" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="Login"
+                app:cardBackgroundColor="@color/four">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Login" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="Swipeable"
+                app:cardBackgroundColor="@color/two">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Swipeable Layout" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="Bubbles"
+                app:cardBackgroundColor="@color/one">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Bubbles" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="Achievement"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Achievement" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="PullRefresh"
+                app:cardBackgroundColor="@color/three">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Pull To Refresh" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="ListView"
+                app:cardBackgroundColor="@color/four">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="ListView" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="TextView"
+                app:cardBackgroundColor="@color/one">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="TextViews" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CardViewMain"
+                android:onClick="UIElements"
+                app:cardBackgroundColor="@color/six">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="UI Elements" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

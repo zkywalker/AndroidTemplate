@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="indicator_normal">#fff0f0f0</color>
+
+    <color name="indicator_select">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="theme_gray">#F5F5F5</color>
+    <color name="slider_color_normal">#FF5722</color>
+    <color name="slider_color">#FF5722</color>
+</resources>

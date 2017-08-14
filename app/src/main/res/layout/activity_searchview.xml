@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:id="@+id/onel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/button_default"
+                style="@style/CardViewMain"
+                app:cardBackgroundColor="@color/four">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Default Search"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/button_themed"
+                style="@style/CardViewMain"
+                app:cardBackgroundColor="@color/five">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Themed Search"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/button_voice"
+                style="@style/CardViewMain"
+                app:cardBackgroundColor="@color/two">
+
+                <me.arulnadhan.robototextview.widget.RobotoTextView
+                    style="@style/CardViewContentTV"
+                    android:text="Voice Search"/>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

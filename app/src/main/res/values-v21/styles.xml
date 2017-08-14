@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="commonListItemStyle">
+        <item name="android:translationZ">@dimen/list_item_translation_z</item>
+    </style>
+
+    <style name="SWLTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+
+        <item name="colorPrimary">?colorPrimary</item>
+        <item name="colorPrimaryDark">?colorPrimaryDark</item>
+
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/grid_detail_transition
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/grid_detail_transition
+        </item>
+
+    </style>
+</resources>

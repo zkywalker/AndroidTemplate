@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ToolBarStyle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/onel"
+        android:layout_below="@+id/toolbar">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/date_button"
+            style="@style/CardViewMain"
+            android:layout_weight="1"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:id="@+id/flexible_ge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/header_img"
+                android:scaleType="fitXY" />
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal"
+                android:textSize="@dimen/keep_title_size"
+                android:text="Pick a Time!"
+                android:textColor="@color/white" />
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:id="@+id/time_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/selected_time" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/time_button"
+            style="@style/CardViewMain"
+            android:layout_weight="1"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/header_img"
+                android:scaleType="fitXY" />
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal"
+                android:textSize="@dimen/keep_title_size"
+                android:text="Pick a Date!"
+                android:textColor="@color/white" />
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:id="@+id/date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/selected_date" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

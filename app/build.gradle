@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "me.arulnadhan.androidultimate"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+//    Fonts
+    compile 'com.mikepenz:iconics-core:2.5.5@aar'
+    compile 'com.mikepenz:google-material-typeface:2.1.0.1.original@aar'
+//    Utils
+    compile 'jp.wasabeef:recyclerview-animators:1.2.0@aar'
+    compile 'se.emilsjolander:stickylistheaders:2.6.0'
+    compile 'com.github.medyo:fancybuttons:1.5@aar'
+//    Modules
+    compile project(':AppIntro')
+    compile project(':FlyRefresh')
+    compile project(':bottomsheet')
+    compile project(':ScrollBar')
+    compile project(':Resume')
+    compile project(':FabLoading')
+    compile project(':FabProgress')
+    compile project(':FabDownload')
+    compile project(':SearchView')
+    compile project(':FabReveal')
+    compile project(':MaterialPicker')
+    compile project(':Bubbles')
+    compile project(':Achievement')
+    compile project(':FABToolbar')
+    compile project(':SweetSheet')
+    compile project(':ElasticDownload')
+    compile project(':TextSurface')
+    compile project(':RecyclerView')
+    compile project(':SwipeableLayout')
+    compile project(':robototextview')
+    compile files('libs/listviewanimations_core-slh_3.1.0.jar')
+    compile files('libs/listviewanimations_core_3.1.0.jar')
+}
+

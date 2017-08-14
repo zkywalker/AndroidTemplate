@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:elastic="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run success animation"
+            android:onClick="action_run_success_animation"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:id="@+id/button3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run fail animation"
+            android:onClick="action_run_fail_animation"
+            android:id="@+id/button9"
+            android:layout_alignBottom="@+id/elastic_download_view"
+            android:layout_centerHorizontal="true" />
+
+
+        <me.arulnadhan.elasticdownload.ElasticDownloadView
+            android:id="@+id/elastic_download_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            elastic:backgroundColor="@color/four" />
+    </LinearLayout>
+
+</RelativeLayout>

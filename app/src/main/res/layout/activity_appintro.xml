@@ -1,0 +1,337 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/Appintro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Appintro"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/menu_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:onClick="startDefaultIntro"
+                    app:cardBackgroundColor="@color/five">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/loader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/default_intro"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/picker_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:onClick="startSecondLayoutIntro"
+                    app:cardBackgroundColor="@color/four">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/second_layout_intro"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/image_picker_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:onClick="startCustomIntro"
+                    app:cardBackgroundColor="@color/two">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/FABDownload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/customized_intro"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:text="@string/header_animations"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal" />
+
+            <LinearLayout
+                android:id="@+id/onel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Appintro"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fadec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startFadeAnimation"
+                    app:cardBackgroundColor="@color/five">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/fade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="@string/fade_animation"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/keep_title_size"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startZoomAnimation"
+                    app:cardBackgroundColor="@color/three">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/z"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="@string/zoom_animation"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/keep_title_size"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/twol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/onel"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/vew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startFlowAnimation"
+                    app:cardBackgroundColor="@color/six">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/loer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="@string/flow_animation"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/keep_title_size"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startSlideOverAnimation"
+                    app:cardBackgroundColor="@color/four">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/FABad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="@string/slideover_animation"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/keep_title_size"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/threel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/twol"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/sli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startDepthAnimation"
+                    app:cardBackgroundColor="@color/one">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:id="@+id/slider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="@string/depth_animation"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/keep_title_size"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startCustomAnimation"
+                    app:cardBackgroundColor="@color/two">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/custom_animation"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/keep_title_size"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <me.arulnadhan.robototextview.widget.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:text="@string/header_indicators"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:fontFamily="roboto_slab"
+                app:textWeight="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:onClick="startProgressIndicator"
+                    app:cardBackgroundColor="@color/five">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/progress_indicator"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    android:onClick="startCustomIndicator"
+                    app:cardBackgroundColor="@color/four">
+
+                    <me.arulnadhan.robototextview.widget.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/custom_indicator"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:fontFamily="roboto_slab"
+                        app:textWeight="normal" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--tools:context=".ThemeActivity">-->
+
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startDefaultIntro"--><!--android:text="@string/default_intro"/>-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startSecondLayoutIntro"--><!--android:text="@string/second_layout_intro"/>-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startCustomIntro"--><!--android:text="@string/customized_intro"/>--><!--<View--><!--android:layout_width="fill_parent"--><!--android:layout_height="0.5dp"--><!--android:layout_marginTop="@dimen/activity_horizontal_margin"--><!--android:background="#888888"/>--><!--<TextView--><!--android:layout_width="fill_parent"--><!--android:layout_height="wrap_content"--><!--android:padding="@dimen/activity_horizontal_margin"--><!--android:gravity="center_horizontal"--><!--android:text="@string/header_animations"/>--><!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startFadeAnimation"--><!--android:text="@string/fade_animation"/>-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startZoomAnimation"--><!--android:text="@string/zoom_animation" />-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startFlowAnimation"--><!--android:text="@string/flow_animation" />-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startDepthAnimation"--><!--android:text="@string/depth_animation" />-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startSlideOverAnimation"--><!--android:text="@string/slideover_animation" />-->
+
+    <!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startCustomAnimation"--><!--android:text="@string/custom_animation" />-->
+
+    <!--<View--><!--android:layout_width="fill_parent"--><!--android:layout_height="0.5dp"--><!--android:layout_marginTop="@dimen/activity_horizontal_margin"--><!--android:background="#888888"/>--><!--<TextView--><!--android:layout_width="fill_parent"--><!--android:layout_height="wrap_content"--><!--android:padding="@dimen/activity_horizontal_margin"--><!--android:gravity="center_horizontal"--><!--android:text="@string/header_indicators"/>--><!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startProgressIndicator"--><!--android:text="@string/progress_indicator"/>--><!--<Button--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:onClick="startCustomIndicator"--><!--android:text="@string/custom_indicator"/>--><!--</LinearLayout>-->

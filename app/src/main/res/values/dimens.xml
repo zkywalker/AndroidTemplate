@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keep_title_size">32sp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="paddingTop">0dp</dimen>
+
+    <!-- FAB -->
+
+    <dimen name="avatarSize">50dp</dimen>
+    <dimen name="photo_text_left_padding">20dp</dimen>
+    <dimen name="photo_description_side_padding">20dp</dimen>
+    <dimen name="photo_desc_title">18sp</dimen>
+    <dimen name="photo_desc_author">14sp</dimen>
+    <dimen name="overflow_icon_size">24dp</dimen>
+    <dimen name="ffab_margin">26dp</dimen>
+    <dimen name="fab_top_margin">-32dp</dimen>
+    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="music_button_size">52dp</dimen>
+
+    <!-- Animation -->
+
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_huge">72dp</dimen>
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="elevation_fab">8dp</dimen>
+    <dimen name="size_icon_toolbar">40dp</dimen>
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="anim_duration_medium">300</integer>
+
+
+    <!-- mfb -->
+
+    <dimen name="text_padding">8dp</dimen>
+    <dimen name="cardview_margin_top">8dp</dimen>
+    <dimen name="starred_margin">16dp</dimen>
+    <dimen name="counter_value_margin">6dp</dimen>
+
+    <!--   searchmenu    -->
+
+    <integer name="duration_bar">800</integer>
+    <integer name="duration_search">800</integer>
+
+    <!--   RecyclerView  -->
+
+
+    <dimen name="list_item_translation_z">2dp</dimen>
+    <dimen name="list_item_height">64dp</dimen>
+    <dimen name="list_item2_height">96dp</dimen>
+    <dimen name="list_group_item_height">96dp</dimen>
+    <dimen name="list_group_item_with_add_remove_buttons_height">108dp</dimen>
+
+    <!--   SwipeableLayout  -->
+
+    <dimen name="grid_spacing">4dp</dimen>
+
+    <!-- Toolbar -->
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="navigation_header_height">178dp</dimen>
+
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+
+    <dimen name="dialog_layout_padding">24dp</dimen>
+
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="textview_padding">16dp</dimen>
+
+</resources>

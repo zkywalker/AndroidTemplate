@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.arulnadhan.androidultimate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:theme="@style/AppTheme.Red">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MaterialTabs -->
+
+        <activity
+            android:name=".MaterialTabs.TabActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MaterialTabs.CheeseDetailActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- FAB -->
+
+        <activity android:name=".Fab.FabMainActivity"></activity>
+        <activity android:name=".Fab.FabLoading.FabLoadingActivity"></activity>
+        <activity android:name=".Fab.FabProgress.FabProgressActivity"></activity>
+        <activity android:name=".Fab.FabDownload.FabDownloadActivity"></activity>
+        <activity android:name=".Fab.FabReveal.FabRevealActivity"></activity>
+        <activity android:name=".Fab.FabMenu.FabMenuActivity"></activity>
+        <activity android:name=".Fab.FABToolbar.FABToolbarActivity"></activity>
+
+
+        <!-- AppIntro -->
+
+        <activity
+            android:name=".AppIntro.AppIntroMainActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AppIntro.DefaultIntro"
+            android:label="@string/title_activity_default_intro"></activity>
+        <activity
+            android:name=".AppIntro.CustomIntro"
+            android:label="@string/title_activity_custom_intro"></activity>
+        <activity
+            android:name=".AppIntro.SecondLayoutIntro"
+            android:label="@string/title_activity_second_intro" />
+        <activity android:name=".AppIntro.animations.CustomAnimation" />
+        <activity android:name=".AppIntro.animations.FadeAnimation" />
+        <activity android:name=".AppIntro.animations.ZoomAnimation" />
+        <activity android:name=".AppIntro.animations.DepthAnimation" />
+        <activity android:name=".AppIntro.animations.FlowAnimation" />
+        <activity android:name=".AppIntro.animations.SlideOverAnimation" />
+        <activity android:name=".AppIntro.indicators.ProgressIndicator" />
+        <activity android:name=".AppIntro.indicators.CustomIndicator" />
+
+        <!-- PullToRefresh -->
+
+        <activity
+            android:name=".PullToRefresh.PullToRefresh"
+            android:label="@string/title_activity_pull_to_refresh"></activity>
+        <activity android:name=".PullToRefresh.FlyRefreshActivity" />
+
+        <activity android:name=".PullToRefresh.SwipeRefreshActivity" />
+
+        <!-- Bottomsheet -->
+
+        <activity android:name=".Bottomsheet.BottomsheetActivity" />
+        <activity
+            android:name=".Bottomsheet.PickerActivity"
+            android:label="@string/intent_picker" />
+        <activity
+            android:name=".Bottomsheet.MenuActivity"
+            android:label="@string/intent_picker" />
+        <activity android:name=".SweetSheet.SweetSheetActivity" />
+
+        <!-- ScrollBar -->
+        <activity android:name=".ScrollBar.ScrollBarActivity" />
+
+        <!-- List View -->
+
+        <activity android:name=".Listview.MainListActivity" />
+        <activity android:name=".Listview.googlecards.GoogleCardsActivity" />
+        <activity android:name=".Listview.appearance.AppearanceExamplesActivity" />
+        <activity android:name=".Listview.gridview.GridViewActivity" />
+        <activity android:name=".Listview.itemmanipulation.DynamicListViewActivity" />
+        <activity android:name=".Listview.itemmanipulation.expandablelistitems.ExpandableListItemActivity" />
+        <activity android:name=".Listview.itemmanipulation.ItemManipulationsExamplesActivity" />
+        <activity android:name=".Listview.StickyListHeadersActivity" />
+
+        <!-- Resume -->
+
+        <activity android:name=".Resume.ResumeActivity" />
+
+
+        <!-- SearchView -->
+
+        <activity android:name=".SearchView.SearchViewActivity"></activity>
+        <activity android:name=".SearchView.ColoredActivity"></activity>
+        <activity android:name=".SearchView.DefaultActivity"></activity>
+        <activity android:name=".SearchView.VoiceActivity"></activity>
+
+        <!-- Material Picker -->
+        <activity android:name=".MaterialPicker.MaterialPickerActivity"></activity>
+
+        <!-- Bubbles -->
+        <activity android:name=".Bubbles.BubblesActivity"></activity>
+        <!-- Achievement -->
+        <activity android:name=".Achievement.AchievementActivity"></activity>
+
+        <!-- login -->
+        <activity
+            android:name=".Login.LoginActivity"
+            android:theme="@style/Login" />
+        <activity
+            android:name=".Login.Login_anim"
+            android:theme="@style/AnimLogin" />
+        <activity
+            android:name=".Login.Login_social"
+            android:theme="@style/SocialLogin" />
+        <activity
+            android:name=".Login.Login_material"
+            android:theme="@style/MaterialLogin" />
+        <activity
+            android:name=".Login.Login_video"
+            android:theme="@style/VideoLogin" />
+
+        <activity android:name=".ElasticDownload.ElasticDownloadActivity" />
+        <activity android:name=".ShareView.ShareViewActivity"></activity>
+
+
+        <!-- RecyclerView -->
+        <activity android:name=".RecyclerView.launcher.RVActivity"></activity>
+        <activity
+            android:name=".RecyclerView.demo_d.DraggableExampleActivity"
+            android:label="@string/activity_title_demo_d" />
+        <activity
+            android:name=".RecyclerView.demo_d_grid.DraggableGridExampleActivity"
+            android:label="@string/activity_title_demo_d_grid" />
+        <activity
+            android:name=".RecyclerView.demo_d_on_longpress.DragOnLongPressExampleActivity"
+            android:label="@string/activity_title_demo_d_on_longpress" />
+        <activity
+            android:name=".RecyclerView.demo_s.SwipeableExampleActivity"
+            android:label="@string/activity_title_demo_s" />
+        <activity
+            android:name=".RecyclerView.demo_s_longpress.SwipeOnLongPressExampleActivity"
+            android:label="@string/activity_title_demo_s_on_longpress" />
+        <activity
+            android:name=".RecyclerView.demo_us.UnderSwipeableExampleActivity"
+            android:label="@string/activity_title_demo_us" />
+        <activity
+            android:name=".RecyclerView.demo_e.ExpandableExampleActivity"
+            android:label="@string/activity_title_demo_e" />
+        <activity
+            android:name=".RecyclerView.demo_ds.DraggableSwipeableExampleActivity"
+            android:label="@string/activity_title_demo_ds" />
+        <activity
+            android:name=".RecyclerView.demo_eds.ExpandableDraggableSwipeableExampleActivity"
+            android:label="@string/activity_title_demo_eds" />
+        <activity
+            android:name=".RecyclerView.demo_d_with_section.DraggableWithSectionExampleActivity"
+            android:label="@string/activity_title_demo_d_with_section" />
+        <activity
+            android:name=".RecyclerView.demo_ed_with_section.ExpandableDraggableWithSectionExampleActivity"
+            android:label="@string/activity_title_demo_ed_with_section" />
+        <activity
+            android:name=".RecyclerView.demo_e_add_remove.AddRemoveExpandableExampleActivity"
+            android:label="@string/activity_title_demo_e_add_remove" />
+        <activity
+            android:name=".RecyclerView.demo_e_already_expanded.AlreadyExpandedGroupsExpandableExampleActivity"
+            android:label="@string/activity_title_demo_e_already_expanded" />
+        <activity
+            android:name=".RecyclerView.demo_s_vertical.VerticalSwipeableExampleActivity"
+            android:label="@string/activity_title_demo_s_vertical" />
+        <activity
+            android:name=".RecyclerView.demo_s_viewpager.ViewPagerSwipeableExampleActivity"
+            android:label="@string/activity_title_demo_s_viewpager" />
+        <activity
+            android:name=".RecyclerView.demo_s_legacy.LegacySwipeableExampleActivity"
+            android:label="@string/activity_title_demo_s_legacy" />
+
+        <!-- SwipeableLayout -->
+
+        <activity android:name=".SwipeableLayout.SwipeableLayoutActivity" />
+
+        <activity
+            android:name=".SwipeableLayout.SwipeableActivity"
+            android:theme="@style/SWLTheme" />
+
+        <!-- Toolbar-->
+        <activity android:name=".Toolbar.ToolBarActivity" />
+        <activity android:name=".Toolbar.QuickReturnToolbar" />
+        <activity android:name=".Toolbar.CollapseToolbar" />
+
+        <!-- Dialogs-->
+
+        <activity android:name=".Dialogs.DialogsActivity" />
+
+        <activity android:name=".UIElements.UIActivity" />
+
+        <activity android:name=".Themer.ThemeActivity" />
+
+        <activity android:name=".TextView.TextViewActivity" />
+
+        <!-- Text Surface-->
+
+        <activity android:name=".TextSurface.TextSurfaceMainActivity" />
+
+        <activity android:name=".TextSurface.activities.CookieThumper" />
+        <activity android:name=".TextSurface.activities.ShapeReveal" />
+        <activity android:name=".TextSurface.activities.Align" />
+        <activity android:name=".TextSurface.activities.ColorText" />
+        <activity android:name=".TextSurface.activities.ScaleText" />
+        <activity android:name=".TextSurface.activities.Slide" />
+        <activity android:name=".TextSurface.activities.SurfaceTrans" />
+        <activity android:name=".TextSurface.activities.Rotation3D" />
+        <activity android:name=".TextSurface.activities.SurfaceScale" />
+
+    </application>
+
+</manifest>
